@@ -12,7 +12,7 @@ import pandas as pd
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 MODEL_NAME = "gemini-1.5-flash"
-API_URL = f"https://generativelanguage.googleapis.com/v1/models/{MODEL_NAME}:generateContent"
+API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent"
 
 # --- JSON Schema for the structured Weekly Plan and Grocery List ---
 # This schema ensures the model returns two clear outputs: the plan and the consolidated list.
