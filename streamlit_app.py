@@ -11,7 +11,7 @@ import pandas as pd
 # GEMINI_API_KEY="YOUR_API_KEY" streamlit run streamlit_app.py
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
-MODEL_NAME = "gemini-2.5-flash-preview-05-20"
+MODEL_NAME = "gemini-1.5-flash"
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent"
 
 # --- JSON Schema for the structured Weekly Plan and Grocery List ---
